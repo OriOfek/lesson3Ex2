@@ -9,12 +9,12 @@
     <Space
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_weight="0.5" />
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
         <Space
@@ -38,7 +38,7 @@
     <LinearLayout
         android:layout_width="0px"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
         <Space
@@ -63,7 +63,7 @@
     <LinearLayout
         android:layout_width="0px"
         android:layout_height="match_parent"
-        android:layout_weight="2"
+        android:layout_weight="4"
         android:orientation="vertical">
 
         <Space
@@ -73,10 +73,10 @@
 
         <Button
             android:id="@+id/clear"
-            android:onClick="clear"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
+            android:onClick="clear"
             android:text="clear" />
 
         <Space
@@ -118,7 +118,7 @@
             <Space
                 android:layout_width="0px"
                 android:layout_height="match_parent"
-                android:layout_weight="10" />
+                android:layout_weight="1" />
 
             <Button
                 android:id="@+id/worth"
@@ -131,7 +131,7 @@
             <Space
                 android:layout_width="0px"
                 android:layout_height="match_parent"
-                android:layout_weight="10" />
+                android:layout_weight="1" />
         </LinearLayout>
 
         <Space
@@ -141,10 +141,10 @@
 
         <Button
             android:id="@+id/press"
-            android:onClick="setnumber"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
+            android:onClick="setnumber"
             android:text="press" />
 
         <Space
@@ -157,7 +157,7 @@
     <LinearLayout
         android:layout_width="0px"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
         <Space
@@ -182,7 +182,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
         <Space
@@ -207,7 +207,7 @@
     <LinearLayout
         android:layout_width="0px"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:orientation="vertical">
 
         <ImageView
