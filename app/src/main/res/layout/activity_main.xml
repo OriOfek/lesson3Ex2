@@ -47,10 +47,11 @@
             android:layout_weight="70" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bigger"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="7"
+            android:onClick="big"
             android:text=">" />
 
         <Space
@@ -72,6 +73,7 @@
 
         <Button
             android:id="@+id/clear"
+            android:onClick="clear"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
@@ -99,7 +101,7 @@
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
-            android:text="0/0"
+            android:text="none"
             android:visibility="visible" />
 
         <Space
@@ -119,10 +121,11 @@
                 android:layout_weight="10" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/worth"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="12"
+                android:onClick="worth"
                 android:text="=" />
 
             <Space
@@ -138,6 +141,7 @@
 
         <Button
             android:id="@+id/press"
+            android:onClick="setnumber"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
@@ -162,10 +166,11 @@
             android:layout_weight="70" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/smaller"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="7"
+            android:onClick="small"
             android:text="@string/sign" />
 
         <Space
