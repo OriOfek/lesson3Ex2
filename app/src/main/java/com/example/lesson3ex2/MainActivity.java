@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             if ((click == true) && (num2 < num1)) {
                 counteraccurate++;
             }
-            counter.setText(String.valueOf(counteraccurate / countervalue * 100 ));
+            counter.setText("accurate = "+ String.valueOf((float) Math.round((counteraccurate / countervalue * 100) * 100) / 100));
             if (num2 < num1) {
                 accurate.setText("true");
             } else {
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
             if ((click == true) && (num2 == num1)) {
                 counteraccurate++;
             }
-            counter.setText(String.valueOf(counteraccurate / countervalue * 100 ));
+            counter.setText("accurate = "+ String.valueOf((float) Math.round((counteraccurate / countervalue * 100) * 100) / 100));
             if (num2 == num1) {
                 accurate.setText("true");
             } else {
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             if ((click == true) && (num2 > num1)) {
                 counteraccurate++;
             }
-            counter.setText(String.valueOf(counteraccurate / countervalue * 100 ));
+            counter.setText("accurate = "+ String.valueOf((float) Math.round((counteraccurate / countervalue * 100) * 100) / 100));
             if (num2 > num1) {
                 accurate.setText("true");
             } else {
