@@ -51,8 +51,8 @@
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="10"
-            android:onClick="big"
-            android:text=">" />
+            android:onClick="small"
+            android:text="@string/sign" />
 
         <Space
             android:layout_width="match_parent"
@@ -170,8 +170,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="10"
-            android:onClick="small"
-            android:text="@string/sign" />
+            android:onClick="big"
+            android:text=">" />
 
         <Space
             android:layout_width="match_parent"
