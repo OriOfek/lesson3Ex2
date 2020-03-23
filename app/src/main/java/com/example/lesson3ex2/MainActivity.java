@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void big(View view) {
+
+        //if the game not start
         if (start != false) {
             if (click == true) {
                 countervalue++;
